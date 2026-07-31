@@ -1,26 +1,26 @@
 class Carina < Formula
   desc "Local-first runtime for AI coding agents"
   homepage "https://github.com/Nebutra/carina"
-  version "0.6.5"
+  version "0.6.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Nebutra/carina/releases/download/v0.6.5/carina_0.6.5_darwin_arm64.tar.gz"
-      sha256 "ea54a5d6c491c709df559f0b5d5f3f8838e4c0074bbd07b56b384d40de9420c8"
+      url "https://github.com/Nebutra/carina/releases/download/v0.6.6/carina_0.6.6_darwin_arm64.tar.gz"
+      sha256 "8bb43d588f14b5b00d3e3aa86c76cc98811eb0d8f8c7e28b1aeb8ce7efd02edb"
     else
-      url "https://github.com/Nebutra/carina/releases/download/v0.6.5/carina_0.6.5_darwin_amd64.tar.gz"
-      sha256 "8d69472319aba617bf59d262838a633d7b95b061758bb3cf55a1db803e9f8329"
+      url "https://github.com/Nebutra/carina/releases/download/v0.6.6/carina_0.6.6_darwin_amd64.tar.gz"
+      sha256 "e3db48381f96c4fbad1d023ae7989911dc6a570f17f339f701bb9d6bbc52a19c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Nebutra/carina/releases/download/v0.6.5/carina_0.6.5_linux_arm64.tar.gz"
-      sha256 "eb2a5739eb747d440e70e4cf2efa7da0412148e3e7fb17b1fcb76ad73c5024bd"
+      url "https://github.com/Nebutra/carina/releases/download/v0.6.6/carina_0.6.6_linux_arm64.tar.gz"
+      sha256 "e738c76b7dfc430f8a7e344120b1dc2cc330e6950be6836665420e18c4cc3c6d"
     else
-      url "https://github.com/Nebutra/carina/releases/download/v0.6.5/carina_0.6.5_linux_amd64.tar.gz"
-      sha256 "7dbc368916f4f224778104e88e337214650f156478d83f27bd0570a68ba6a4bd"
+      url "https://github.com/Nebutra/carina/releases/download/v0.6.6/carina_0.6.6_linux_amd64.tar.gz"
+      sha256 "b400938ca9b4262aa8242f29289f1473c608ecfd4e0b2e67a13a58082ea531a0"
     end
   end
 
